@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { saveFormData } from "../hooks/hooks";
 
 const Contact = () => {
 
@@ -12,8 +13,10 @@ const Contact = () => {
       ...prevData,
       [name]: value,
     }));
+  }
 
-    console.log(formData);
+  const handleSubmit = async() => {
+    await saveFormData(formData);
   }
 
   return (
@@ -29,7 +32,7 @@ const Contact = () => {
             rows="2"
             placeholder="Your Message" className="border border-gray-500" onChange={handleInputChange}
           ></textarea>
-          <button className="bg-yellow-500 px-4 py-2 text-center">
+          <button onClick={handleSubmit} className="bg-yellow-500 px-4 py-2 text-center">
             Send Data
           </button>
         </div>

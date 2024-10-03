@@ -1,3 +1,3 @@
 export const config = {
-  jsonServerApi: 'http://localhosst:3000'
+  JSON_SERVER_URL: 'http://localhost:3000'
 }

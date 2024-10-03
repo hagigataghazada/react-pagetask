@@ -3,7 +3,7 @@ import { saveFormData } from "../hooks/hooks";
 
 const Contact = () => {
 
-  const [ formData, setFormData ] = useState(null);
+  const [ formData, setFormData ] = useState({});
 
   const handleInputChange = (e) =>{
     const name = e.target.name;
@@ -15,7 +15,8 @@ const Contact = () => {
     }));
   }
 
-  const handleSubmit = async() => {
+  const handleSubmit = async(e) => {
+    e.preventDefault();
     await saveFormData(formData);
   }
 

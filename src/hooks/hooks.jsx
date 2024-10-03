@@ -4,10 +4,10 @@ import axios from 'axios';
 
 export const saveFormData = async(data) => {
     try {
-        const cv = await axios.post(config.JSON_SERVER_URL + '/contacts', JSON.stringify(data));
+        const cv = await axios.post(config.JSON_SERVER_URL + '/contacts', data);
 
         const response = {
-            'data': response.data,
+            'data': cv.data,
             'message': "OK",
             'status': 'success',
             'status_code': 201

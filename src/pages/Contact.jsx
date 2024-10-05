@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { saveFormData } from "../hooks/hooks";
+import Header from "../components/Header";
 
 const Contact = () => {
 
@@ -22,6 +23,7 @@ const Contact = () => {
 
   return (
     <div className="bg-green-300 h-screen">
+      <Header/>
       <div className="container mx-auto py-10">
         <div className="flex column gap-4">
           <input type="text" name="name" placeholder="Name" className="px-5 py-2 border border-gray-500" onChange={handleInputChange}/>

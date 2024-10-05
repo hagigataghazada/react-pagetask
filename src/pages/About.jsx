@@ -1,23 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 const About = () => {
   return (
     <div>
-        <h1>About Page</h1>
-        <ul>
-          <li>
-            <Link to={"/"}>Home</Link>
-          </li>
-          <li>
-            <Link to={"/about"}>About</Link>
-          </li>
-          <li>
-            <Link to={"/contact"}>Contact</Link>
-          </li>
-        </ul>
-      </div>
-  )
-}
+      <Header />
+      <hr />
+      <h1>About Page</h1>
+    </div>
+  );
+};
 
-export default About
+export default About;

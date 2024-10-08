@@ -17,3 +17,7 @@ export const saveFormData = async(data) => {
         throw new Error(error.message);
     }
 }
+export const getContactMessages = async () => {
+    const response = await axios.get(config.JSON_SERVER_URL + "/contacts");
+    return response;
+  };

@@ -1,67 +1,7 @@
 {
   "contacts": [
     {
-      "id": "46ef",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "25aa",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "9e26",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "9cec",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "0693",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "9e37",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hello\n"
-    },
-    {
-      "id": "58ec",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hi\n\n"
-    },
-    {
-      "id": "d85a",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "hi\n\n"
-    },
-    {
-      "id": "039e",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "helllloo\n"
-    },
-    {
       "id": "593d",
-      "name": "Ayser",
-      "surname": "Ağa-zadə",
-      "message": "helllloo\n"
-    },
-    {
-      "id": "7fa5",
       "name": "Ayser",
       "surname": "Ağa-zadə",
       "message": "helllloo\n"
@@ -71,6 +11,23 @@
       "name": "Ayser",
       "surname": "Ağa-zadə",
       "message": "helllloo\n"
+    },
+    {
+      "id": "381c",
+      "name": "Bina 1",
+      "surname": "zahzvgahaaaaaaahhgygy",
+      "message": "gjlkb"
+    },
+    {
+      "id": "f056",
+      "surname": "Ağa-zadə",
+      "message": "hgk"
+    },
+    {
+      "id": "fadb",
+      "name": "Jolene Valentine",
+      "surname": "Brown",
+      "message": "In quasi vel invento"
     }
   ]
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getContactMessages } from "../hooks/hooks";
+import { deleteContactMessage, getContactMessages } from "../hooks/hooks";
 import { config } from "../App";
 import axios from "axios";
 import Header from "../components/Header";
@@ -18,7 +18,7 @@ const ContactMessages = () => {
   //component yuklenib bitdikden sonra useEffect funksiyasi ishe dusur
 
   const handleDelete = async(id) => {
-    await axios.delete(config.JSON_SERVER_URL + '/contacts/' + id);
+    await deleteContactMessage(id);
   }
 
   return (
